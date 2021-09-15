@@ -1,4 +1,4 @@
-package menu.api;
+package menuapi.menu.api;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

@@ -1,4 +1,4 @@
-main: main
+main: menuapi.main
 name: Serveur-API-Menu
 version: 1.0
 load: STARTUP
