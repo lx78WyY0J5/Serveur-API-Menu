@@ -1,6 +1,6 @@
 package menuapi;
 
-import menuapi.menu.api.customInventoryClick;
+import menuapi.api.customInventoryClick;
 import menuapi.menu.menus.mainMenu;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
