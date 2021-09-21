@@ -32,37 +32,4 @@ public class customInventory implements InventoryHolder
     {
         SKYBLOCK, MENU
     }
-
-    public static boolean cancel(CustomInventoryType customInventoryType)
-    {
-        switch (customInventoryType)
-        {
-            /*case LOBBY:
-                return false;*/
-            default:
-                return true;
-        }
-    }
-
-    public static boolean isCustomMenu(Inventory inventory)
-    {
-        if (inventory.getHolder() instanceof customInventory)
-        {
-            return true;
-        }
-        return false;
-    }
-
-    public static boolean isCancelled(Inventory inventory)
-    {
-        if (isCustomMenu(inventory))
-        {
-            customInventory customInventory = (customInventory) inventory.getHolder();
-            if (cancel(customInventory.getInventoryType()))
-            {
-                return true;
-            }
-        }
-        return false;
-    }
 }

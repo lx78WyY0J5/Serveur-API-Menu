@@ -1,7 +1,6 @@
 package menuapi;
 
 import menuapi.api.customInventoryClick;
-import menuapi.menu.menus.mainMenu;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -35,7 +34,6 @@ public class main extends JavaPlugin
     public void registerEvents()
     {
         Bukkit.getPluginManager().registerEvents(new customInventoryClick(), this);
-        Bukkit.getPluginManager().registerEvents(new mainMenu(), this);
     }
 
     public void registerCommands()
